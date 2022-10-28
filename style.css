@@ -74,7 +74,7 @@ p {
     font-size: larger;
 }
 
-@media (min-width: 576px){
+@media (max-width: 893px) {
     header{
         display: flex;
         align-items: center;
@@ -109,75 +109,5 @@ p {
         color: black;
         font-size: larger;
 }
-    
-@media (min-width: 992px) { 
-    header{
-        font-family: 'Roboto', sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: aqua;
-        height: 50vh;
-        color: white;
-        font-size: 30pt;
-        text-align: center;
-    }
-    
-    section{
-        height: 50vh;
-        display: grid;
-        grid-row: 2;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: black;
-        
-    }
-    
-    .rectangle2{
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height:50px;
-        border-radius: auto;
-        background: orange;
-    }
-    
-    #rectangle1{
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height:50px;
-        border-radius: auto;
-        background: blue;
-        
-    }
-    
-    .rectangle3{
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        height:50px;
-        border-radius: auto;
-        background: aqua;
-    }
-    
-    article{
-        padding-top: 100pt;
-        align-items: center;
-    }
-    h2{
-        padding-top: 3%;
-        border-top: 50pt;
-        color: white;
-        font-size: 30pt;
-        text-align: center;
-    }
-    
-    p {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        width: 15em;
-        color: white;
-        font-size: larger;
-    }
 }
+    
