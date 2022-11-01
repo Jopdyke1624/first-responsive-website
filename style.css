@@ -78,13 +78,17 @@ p {
     header{
         display: flex;
         align-items: center;
-        justify-content: center;
         background-color: skyblue;
         height: 50vh;
         color: white;
         font-size: 30pt;
         text-align: left;
     }
+
+    h1{
+        margin-left: 10%;
+    }
+    
     h2{
         padding-top: 3%;
         border-top: 50pt;
